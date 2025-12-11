@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    IMAGE_REPO_NAME: "samir-bhfl-monthly-gold"
+    IMAGE_REPO_NAME: "bhfl-email-repo"
     REGION: "ap-south-1"
 
 phases:
