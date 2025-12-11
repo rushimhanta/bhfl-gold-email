@@ -19,11 +19,11 @@ from email.mime.application import MIMEApplication
 from email.mime.text import MIMEText
 
 # ---------------- CONFIG ----------------
-S3_BUCKET = "samir-database-s3"
+S3_BUCKET = "bhfl-bank-transformed"
 BASE_PATH = "transactions"                 # base prefix
 AWS_REGION = "ap-south-1"
-SENDER_EMAIL = "samirphapale1997@gmail.com"    # must be verified in SES if sandbox
-OUTPUT_S3_PREFIX = "statements"            # optional prefix to upload protected pdfs
+SENDER_EMAIL = "rushikeshmhanta@gmail.com"    # must be verified in SES if sandbox
+OUTPUT_S3_PREFIX = "emails-data"            # optional prefix to upload protected pdfs
 SEND_VIA_SES = True
 UPLOAD_TO_S3 = True
 SEND_SMS_PASSWORD = True                   # sends password via SNS to phone (recommended)
